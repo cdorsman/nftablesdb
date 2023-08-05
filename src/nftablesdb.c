@@ -1,4 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <getopt.h>
+#include <errno.h>
+#include <unistd.h>
+#include <syslog.h>
 
 static const struct option options[] = {
 	{ .name = "help",	.has_arg = 0,	.val = 'h' },
@@ -15,3 +20,9 @@ static const struct option options[] = {
 	{ .name = "masquerade-mark",	.has_arg = 1,	.val = 'm' },
 	{ NULL },
 };
+
+
+int main() {
+
+    return 0;
+}
