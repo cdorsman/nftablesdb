@@ -1,7 +1,7 @@
 TARGET   = nftablesdb
 CC=gcc
-CFLAGS=-Wall -g -I/usr/include/postgresql
-LFLAGS=-lnftables -lpq -lsystemd
+CFLAGS=-Wall -g 
+LFLAGS=-I/usr/include/postgresql-lnftables -lpq -lsystemd
 
 SRCDIR   = src
 OBJDIR   = obj
